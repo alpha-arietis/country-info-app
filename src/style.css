@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.topContainer {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: dodgerblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dropdown {
+  font-size: 15px;
+  color: dodgerblue;
+  width: 450px;
+  height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: white;
+}
+
+.countryName {
+  color: white;
+}
+
+.countryFlag {
+  border-style: solid;
+  border-color:white;
+  border-radius: 50px;
+  border-width: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+
+.bottomContainer {
+  margin: auto;
+  width: 500px;
+  text-align: left;
+  background-color: rgb(235, 235, 235);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.smallIcon {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+
+.subtitle {
+  margin-top: 0px;
+  padding-top: 4px;
+}
+
+.logo {
+  height: 50px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
